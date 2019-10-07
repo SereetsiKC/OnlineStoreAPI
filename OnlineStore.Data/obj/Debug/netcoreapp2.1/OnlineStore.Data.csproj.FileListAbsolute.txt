@@ -1,0 +1,16 @@
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.Data.deps.json
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.Data.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.Data.pdb
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.Domain.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.Domain.pdb
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.csprojAssemblyReference.cache
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.csproj.CoreCompileInputs.cache
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.AssemblyInfoInputs.cache
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.AssemblyInfo.cs
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.csproj.CopyComplete
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\obj\Debug\netcoreapp2.1\OnlineStore.Data.pdb
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.SharedClasses.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\OnlineStore.SharedClasses.pdb
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml

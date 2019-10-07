@@ -1,0 +1,9 @@
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\bin\Debug\netcoreapp2.1\OnlineStore.Domain.deps.json
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\bin\Debug\netcoreapp2.1\OnlineStore.Domain.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\bin\Debug\netcoreapp2.1\OnlineStore.Domain.pdb
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\obj\Debug\netcoreapp2.1\OnlineStore.Domain.csprojAssemblyReference.cache
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\obj\Debug\netcoreapp2.1\OnlineStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\obj\Debug\netcoreapp2.1\OnlineStore.Domain.AssemblyInfoInputs.cache
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\obj\Debug\netcoreapp2.1\OnlineStore.Domain.AssemblyInfo.cs
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\obj\Debug\netcoreapp2.1\OnlineStore.Domain.dll
+C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.Domain\obj\Debug\netcoreapp2.1\OnlineStore.Domain.pdb
