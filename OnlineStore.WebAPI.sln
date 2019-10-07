@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.WebAPI", "OnlineStore.WebAPI\OnlineStore.WebAPI.csproj", "{22C8DFC2-BC36-4154-8DD8-CC0D8EC30983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.WebAPI", "OnlineStore.WebAPI\OnlineStore.WebAPI.csproj", "{22C8DFC2-BC36-4154-8DD8-CC0D8EC30983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.SharedClasses", "OnlineStore.SharedClasses\OnlineStore.SharedClasses.csproj", "{EE937807-EE7D-4083-BD8A-0BC6AFBAAB42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.SharedClasses", "OnlineStore.SharedClasses\OnlineStore.SharedClasses.csproj", "{EE937807-EE7D-4083-BD8A-0BC6AFBAAB42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Domain", "OnlineStore.Domain\OnlineStore.Domain.csproj", "{914225E4-5B18-41CF-9E83-2165EF12BD27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.Domain", "OnlineStore.Domain\OnlineStore.Domain.csproj", "{914225E4-5B18-41CF-9E83-2165EF12BD27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Data", "OnlineStore.Data\OnlineStore.Data.csproj", "{74897F0B-6A3E-465E-8F5F-020A46CA30E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineStore.Data", "OnlineStore.Data\OnlineStore.Data.csproj", "{74897F0B-6A3E-465E-8F5F-020A46CA30E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBSripts", "DBSripts", "{F7699D94-5DA8-4A8B-9DFC-CE1F9150EBEC}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Development\DataBase.zip = E:\Development\DataBase.zip
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
