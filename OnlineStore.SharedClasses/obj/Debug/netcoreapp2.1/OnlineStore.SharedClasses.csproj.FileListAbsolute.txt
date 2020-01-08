@@ -16,3 +16,14 @@ C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.SharedClasse
 C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.pdb
 C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.Domain.dll
 C:\Users\kopanosereetsi\source\repos\OnlineStore.WebAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.Domain.pdb
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.SharedClasses.deps.json
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.SharedClasses.dll
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.SharedClasses.pdb
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.Domain.dll
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\bin\Debug\netcoreapp2.1\OnlineStore.Domain.pdb
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.csprojAssemblyReference.cache
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.AssemblyInfoInputs.cache
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.AssemblyInfo.cs
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.csproj.CopyComplete
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.dll
+D:\C# Applications\OnlineStoreAPI\OnlineStore.SharedClasses\obj\Debug\netcoreapp2.1\OnlineStore.SharedClasses.pdb
