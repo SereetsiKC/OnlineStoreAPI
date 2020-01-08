@@ -15,49 +15,15 @@ namespace OnlineStore.WebAPI.Services
             _repository = repository;
         }
 
-        public async Task<RemoteCallResult<List<tblBrands>>> GetAllBrands()
-        {
-            return RemoteCallResult.Success(await _repository.GetAllBrands());
-        }
+        public async Task<RemoteCallResult<List<tblBrands>>> GetAllBrands() => RemoteCallResult.Success(await _repository.GetAllBrands());
+        public async Task<RemoteCallResult<List<tblCategory>>> GetAllCategories() => RemoteCallResult.Success(await _repository.GetAllCategories());
+        public async Task<RemoteCallResult<List<tblSupplier>>> GetAllSuppliers() => RemoteCallResult.Success(await _repository.GetAllSuppliers());
+        public async Task<RemoteCallResult<List<BrandsProducts>>> GetAllBrandsProducts() => RemoteCallResult.Success(await _repository.GetAllBrandsProducts());
+        public async Task<RemoteCallResult<List<CategoryBrand>>> GetAllCategoryBrands() => RemoteCallResult.Success(await _repository.GetAllCategoryBrands());
+        public async Task<RemoteCallResult<List<Product>>> GetQuickViewProduct() => RemoteCallResult.Success(await _repository.GetQuickViewProduct());
+        public async Task<RemoteCallResult<List<Product>>> GetAllProducts() => RemoteCallResult.Success(await _repository.GetAllProducts());
+        public async Task<RemoteCallResult<int>> SaveProduct(tblProducts tblProducts) => RemoteCallResult.Success(await _repository.SaveProduct(tblProducts));
+        public async Task<RemoteCallResult<int>> SaveSupplier(tblSupplier tblSupplier) => RemoteCallResult.Success(await _repository.SaveSupplier(tblSupplier));
 
-        public async Task<RemoteCallResult<List<tblCategory>>> GetAllCategories()
-        {
-            return RemoteCallResult.Success(await _repository.GetAllCategories());
-        }
-
-        public async Task<RemoteCallResult<List<tblSupplier>>> GetAllSuppliers()
-        {
-            return RemoteCallResult.Success(await _repository.GetAllSuppliers());
-        }
-
-        public async Task<RemoteCallResult<List<BrandsProducts>>> GetAllBrandsProducts()
-        {
-            return RemoteCallResult.Success(await _repository.GetAllBrandsProducts());
-        }
-
-        public async Task<RemoteCallResult<List<CategoryBrand>>> GetAllCategoryBrands()
-        {
-            return RemoteCallResult.Success(await _repository.GetAllCategoryBrands());
-        }
-
-        public async Task<RemoteCallResult<List<Product>>> GetQuickViewProduct()
-        {
-            return RemoteCallResult.Success(await _repository.GetQuickViewProduct());
-        }
-
-        public async Task<RemoteCallResult<List<Product>>> GetAllProducts()
-        {
-            return RemoteCallResult.Success(await _repository.GetAllProducts());
-        }
-
-        public async Task<RemoteCallResult<int>> SaveProduct(tblProducts tblProducts)
-        {
-            return RemoteCallResult.Success(await _repository.SaveProduct(tblProducts));
-        }
-
-        public async Task<RemoteCallResult<int>> SaveSupplier(tblSupplier tblSupplier)
-        {
-            return RemoteCallResult.Success(await _repository.SaveSupplier(tblSupplier));
-        }
     }
 }

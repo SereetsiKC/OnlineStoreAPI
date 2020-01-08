@@ -22,16 +22,10 @@ namespace OnlineStore.WebAPI.Controllers
 
 
         [Route("GetQuickViewProduct"), HttpGet]
-        public async Task<IActionResult> GetQuickViewProduct()
-        {
-            return Ok(await _service.GetQuickViewProduct());
-        }
+        public async Task<IActionResult> GetQuickViewProduct() => Ok(await _service.GetQuickViewProduct());
 
         [Route("GetAllProducts"), HttpGet]
-        public async Task<IActionResult> GetAllProducts()
-        {
-            return Ok(await _service.GetAllProducts());
-        }
+        public async Task<IActionResult> GetAllProducts() => Ok(await _service.GetAllProducts());
 
         [Route("SaveProduct"), HttpPost]
         public async Task<IActionResult> SaveProduct([FromBody] tblProducts tblProducts)

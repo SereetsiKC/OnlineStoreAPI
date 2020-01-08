@@ -21,10 +21,7 @@ namespace OnlineStore.WebAPI.Controllers
         }
 
         [Route("GetAllSuppliers"), HttpGet]
-        public async Task<IActionResult> GetAllSuppliers()
-        {
-            return Ok(await _service.GetAllSuppliers());
-        }
+        public async Task<IActionResult> GetAllSuppliers() => Ok(await _service.GetAllSuppliers());
 
         [Route("SaveSupplier"), HttpPost]
         public async Task<IActionResult> SaveSupplier([FromBody] tblSupplier tblSupplier)
