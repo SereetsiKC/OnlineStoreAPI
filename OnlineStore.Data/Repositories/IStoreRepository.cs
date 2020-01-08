@@ -14,7 +14,7 @@ namespace OnlineStore.Data.Repositories
         Task<List<CategoryBrand>> GetAllCategoryBrands();
         Task<List<Product>> GetQuickViewProduct();
         Task<List<Product>> GetAllProducts();
-        Task<int> SaveProduct(tblProducts tblProducts);
-        Task<int>  SaveSupplier(tblSupplier tblSupplier);
+        void SaveProduct(tblProducts tblProducts);
+        Task<int> SaveSupplier(tblSupplier tblSupplier);
     }
 }
