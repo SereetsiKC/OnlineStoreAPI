@@ -16,7 +16,7 @@ namespace OnlineStore.WebAPI.Services
         Task<RemoteCallResult<List<CategoryBrand>>> GetAllCategoryBrands();
         Task<RemoteCallResult<List<Product>>> GetQuickViewProduct();
         Task<RemoteCallResult<List<Product>>> GetAllProducts();
-        Task<RemoteCallResult<int>> SaveProduct(tblProducts tblProducts);
+        void SaveProduct(tblProducts tblProducts);
         Task<RemoteCallResult<int>> SaveSupplier(tblSupplier tblSupplier);
     }
 }

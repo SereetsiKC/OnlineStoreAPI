@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineStore.Domain.DataObjects;
 using OnlineStore.WebAPI.Services;
+using Hangfire;
+using Hangfire.Server;
 
 namespace OnlineStore.WebAPI.Controllers
 {
@@ -32,8 +34,18 @@ namespace OnlineStore.WebAPI.Controllers
         {
             if (!ModelState.IsValid)
                 return await Task.FromResult(BadRequest(ModelState));
+            BackgroundJob.Enqueue(() => _service.SaveProduct(tblProducts));
+            //BackgroundJob.Schedule(() => _service.SaveProduct(tblProducts), DateTime.Now.AddMinutes(30));
+            //RecurringJob.AddOrUpdate("parent_id", () => _service.SaveProduct(tblProducts), Cron.Minutely());
 
-            return Ok(await _service.SaveProduct(tblProducts));
+            return Ok();
+        }
+
+        private void ParentFunc(PerformContext context)
+        {
+            // do all prerequisites before running child job(s),
+            // then enqueue one or more continuations:
+            //BackgroundJob.ContinueWith(context.BackgroundJob.Id, () => );
         }
     }
 }

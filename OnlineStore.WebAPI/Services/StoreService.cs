@@ -22,7 +22,7 @@ namespace OnlineStore.WebAPI.Services
         public async Task<RemoteCallResult<List<CategoryBrand>>> GetAllCategoryBrands() => RemoteCallResult.Success(await _repository.GetAllCategoryBrands());
         public async Task<RemoteCallResult<List<Product>>> GetQuickViewProduct() => RemoteCallResult.Success(await _repository.GetQuickViewProduct());
         public async Task<RemoteCallResult<List<Product>>> GetAllProducts() => RemoteCallResult.Success(await _repository.GetAllProducts());
-        public async Task<RemoteCallResult<int>> SaveProduct(tblProducts tblProducts) => RemoteCallResult.Success(await _repository.SaveProduct(tblProducts));
+        public void SaveProduct(tblProducts tblProducts) =>  _repository.SaveProduct(tblProducts);
         public async Task<RemoteCallResult<int>> SaveSupplier(tblSupplier tblSupplier) => RemoteCallResult.Success(await _repository.SaveSupplier(tblSupplier));
 
     }

@@ -16,6 +16,7 @@ using OnlineStore.Data;
 using OnlineStore.Data.Repositories;
 using OnlineStore.SharedClasses;
 using OnlineStore.WebAPI.Services;
+using Hangfire;
 
 namespace OnlineStore.WebAPI
 {
@@ -65,6 +66,7 @@ namespace OnlineStore.WebAPI
             app.UseCors("AllowAllOrigins");
             app.UseMiddleware(typeof(ErrorHandlingMiddleware));
             app.UseMvc();
+            app.UseHangfireDashboard();
         }
 
         private static void ConfigureDI(IServiceCollection services)
@@ -72,6 +74,8 @@ namespace OnlineStore.WebAPI
             services.AddScoped<IStoreRepository, StoreRepository>();
             services.AddScoped<IStoreService, StoreService>();
             services.AddDbContext<StoreDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DbConnection")));
+            services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("HangFireDB")));
+            services.AddHangfireServer();
         }
     }
 }
